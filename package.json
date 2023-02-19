@@ -1,8 +1,8 @@
 {
   "name": "capstone-project",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://rileydv3.github.io/Booking_App/",
+  "private": false,
+  "homepage": "https://rileydv3.github.io/Booking_App",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/free-regular-svg-icons": "^6.3.0",
