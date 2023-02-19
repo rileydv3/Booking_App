@@ -5,7 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import Home from "./pages/home/Home";
-import Hotel from "./pages/hotel/Hotel";
+import Listing from "./pages/listing/Listing";
 import List from "./pages/list/List";
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/hotels" element={<List/>}/>
-        <Route path="/hotels/:id" element={<Hotel/>}/>
+        <Route path="/listings" element={<List/>}/>
+        <Route path="/listings/:id" element={<Listing/>}/>
       </Routes>
     </BrowserRouter>
   );

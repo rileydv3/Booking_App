@@ -1,0 +1,31 @@
+.navbar {
+    height: 50px;
+    background-color: #036;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+}
+
+.navButton {
+    margin-left: 20px;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: #036;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    background-color: #fb3;
+}
