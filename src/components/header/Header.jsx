@@ -71,7 +71,7 @@ const Header = ({type}) => {
             <FontAwesomeIcon icon={faBed} className="headerIcon" />
             <input
               type="text"
-              placeholder="Where are you going?"
+              placeholder="What is your destination?"
               className="headerSearchInput"
             />
           </div>
